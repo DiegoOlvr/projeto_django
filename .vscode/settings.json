@@ -24,6 +24,13 @@
         "source.organizeImports": true
       }
     },
+    "code-runner.defaultLanguage": "python",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "clear ; .\\venv\\Scripts\\python.exe"
+    },
     "[html]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "vscode.html-language-features",
